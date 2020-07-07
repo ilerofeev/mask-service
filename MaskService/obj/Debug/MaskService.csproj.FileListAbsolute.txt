@@ -1,0 +1,6 @@
+C:\Users\Ilya\source\repos\MaskService\MaskService\obj\Debug\MaskService.csproj.CoreCompileInputs.cache
+C:\Users\Ilya\source\repos\MaskService\MaskService\bin\MaskService.dll.config
+C:\Users\Ilya\source\repos\MaskService\MaskService\bin\MaskService.dll
+C:\Users\Ilya\source\repos\MaskService\MaskService\bin\MaskService.pdb
+C:\Users\Ilya\source\repos\MaskService\MaskService\obj\Debug\MaskService.dll
+C:\Users\Ilya\source\repos\MaskService\MaskService\obj\Debug\MaskService.pdb

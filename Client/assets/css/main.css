@@ -1,0 +1,104 @@
+﻿body {
+    font-size: 16px;
+    background: #eaeaea;
+    font-family: 'Roboto', sans-serif;
+}
+.btn {
+    margin: 5px;
+}
+.saveSection{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+ul {
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    padding: 0;
+    box-shadow: 1px 1px 1px lightblue;
+}
+li {
+    background-color: white;
+    border: 1px solid lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+li > * {
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+}
+    li > *:nth-child(1), li > *:nth-child(3), li > *:nth-child(3) > * {
+        min-width: 60px;
+    }
+li > *:nth-child(2) {
+    min-width: 385px;
+}
+li > input {
+    display: inline-block;
+    width: 20px;
+}
+.right ul li {
+    text-align: center;
+}
+.pointer {
+    cursor: pointer;
+}
+li .btn {
+    text-align: center;
+    margin: 8px 15px;
+    padding: 3px 6px;
+}
+.main {
+    display: flex;
+    padding: 10px;
+}
+.title {
+    box-shadow: none;
+    width: 480px;
+    align-self: flex-start;
+}
+.title li{
+    background-color: transparent;
+    border: none;
+}
+.main {
+    margin-top: 20px;
+}
+.left{   
+    margin-left: 5%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+.right li {
+    padding: 6px 12px;
+}
+.right span {
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+.right, .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+}
+.confirm {
+    display: flex;
+    align-items: center;
+}
+.confirm > * {
+    margin: 0 10px;
+}
